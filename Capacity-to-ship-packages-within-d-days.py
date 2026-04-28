@@ -1,6 +1,6 @@
 class Solution:
     def shipWithinDays(self, weights: List[int], days: int) -> int:
-    
+
         def canShip(capacity):
             D, curr = 1,0
             for w in weights:
